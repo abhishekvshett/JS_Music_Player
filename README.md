@@ -29,11 +29,11 @@ CSS3 → Styling & responsiveness
 
 JavaScript (ES6) → Core functionality
 <hr>
-<table>
-  <tr>
+
+ 
 📂 Project Structure
-├── index.html        # Main HTML file
-├── style.css         # Styling
+├── index.html        # Main HTML file <br>
+├── style.css         # Styling <br>
 ├── script.js         # Player functionality
 ├── songs/            # Folder containing mp3 files
 │   ├── song1.mp3
@@ -43,8 +43,7 @@ JavaScript (ES6) → Core functionality
 │   ├── cover1.jpg
 │   ├── cover2.jpg
 │   └── cover3.jpg
-    </tr>
-</table>
+
 
 <hr>
 
@@ -52,7 +51,7 @@ JavaScript (ES6) → Core functionality
 
 Clone this repository
 
-git clone https://github.com/your-username/javascript-music-player.git
+git clone https://github.com/your-username/JS_Music_Player.git
 cd javascript-music-player
 
 <hr>
