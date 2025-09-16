@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JS Music Player</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Optional: Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="player-container">
+    <section class="player-card" aria-label="Music player">
+      <div class="cover-wrap">
+        <img id="cover" src="images/cover1.jpg" alt="Album cover" />
+      </div>
+
+      <div class="info-controls">
+        <div class="track-info">
+          <h3 id="title">Title</h3>
+          <p id="artist">Artist</p>
+        </div>
+
+        <div class="controls" role="group" aria-label="Playback controls">
+          <button id="prev" aria-label="Previous track">⏮️</button>
+          <button id="play" aria-label="Play/Pause">▶️</button>
+          <button id="next" aria-label="Next track">⏭️</button>
+
+          <button id="shuffle" title="Shuffle">🔀</button>
+          <button id="repeat" title="Repeat">🔁</button>
+        </div>
+
+        <div class="progress-container" id="progress-container" aria-label="Song progress">
+          <div id="progress" class="progress"></div>
+        </div>
+        <div class="time-row">
+          <span id="current-time">0:00</span>
+          <span id="duration">0:00</span>
+        </div>
+
+        <div class="volume-row">
+          <input id="volume" type="range" min="0" max="100" value="80" aria-label="Volume" />
+        </div>
+      </div>
+    </section>
+
+    <aside class="playlist" aria-label="Playlist">
+      <h4>Playlist</h4>
+      <ul id="playlist"></ul>
+    </aside>
+  </main>
+
+  <!-- Hidden audio element controlled via JS -->
+  <audio id="audio" preload="metadata"></audio>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
