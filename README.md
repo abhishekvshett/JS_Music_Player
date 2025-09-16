@@ -36,13 +36,13 @@ JavaScript (ES6) → Core functionality
 ├── style.css         # Styling <br>
 ├── script.js         # Player functionality <br>
 ├── songs/            # Folder containing mp3 files 
-│   ├── song1.mp3
-│   ├── song2.mp3
-│   └── song3.mp3 <br>
+    ├── song1.mp3
+    ├── song2.mp3
+    |── song3.mp3... <br>
 ├── images/           # Folder containing cover images
-│   ├── cover1.jpg
-│   ├── cover2.jpg
-│   └── cover3.jpg
+    ├── cover1.jpg
+    ├── cover2.jpg
+    |── cover3.jpg...
 
 
 <hr>
@@ -52,7 +52,7 @@ JavaScript (ES6) → Core functionality
 Clone this repository
 
 git clone https://github.com/your-username/JS_Music_Player.git
-cd javascript-music-player
+cd JS_Music_Player
 
 <hr>
 
