@@ -31,14 +31,14 @@ JavaScript (ES6) → Core functionality
 <hr>
 
  
-📂 Project Structure
+📂 Project Structure <br>
 ├── index.html        # Main HTML file <br>
 ├── style.css         # Styling <br>
-├── script.js         # Player functionality
-├── songs/            # Folder containing mp3 files
+├── script.js         # Player functionality <br>
+├── songs/            # Folder containing mp3 files 
 │   ├── song1.mp3
 │   ├── song2.mp3
-│   └── song3.mp3
+│   └── song3.mp3 <br>
 ├── images/           # Folder containing cover images
 │   ├── cover1.jpg
 │   ├── cover2.jpg
