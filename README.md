@@ -29,7 +29,8 @@ CSS3 → Styling & responsiveness
 
 JavaScript (ES6) → Core functionality
 <hr>
-
+<table>
+  <tr>
 📂 Project Structure
 ├── index.html        # Main HTML file
 ├── style.css         # Styling
@@ -42,6 +43,8 @@ JavaScript (ES6) → Core functionality
 │   ├── cover1.jpg
 │   ├── cover2.jpg
 │   └── cover3.jpg
+    </tr>
+</table>
 
 <hr>
 
@@ -52,19 +55,18 @@ Clone this repository
 git clone https://github.com/your-username/javascript-music-player.git
 cd javascript-music-player
 
+<hr>
 
 Add your music files
 
-Place your .mp3 files inside the songs/ folder.
+1) Place your .mp3 files inside the songs/ folder.
 
-Place cover images inside the images/ folder.
+2) Place cover images inside the images/ folder.
 
-Update playlist in script.js
+3) Update playlist in script.js
 
 let songs = [
-  { title: "Sample Song 1", artist: "Artist A", src: "songs/song1.mp3", cover: "images/cover1.jpg" },
-  { title: "Sample Song 2", artist: "Artist B", src: "songs/song2.mp3", cover: "images/cover2.jpg" },
-  { title: "Sample Song 3", artist: "Artist C", src: "songs/song3.mp3", cover: "images/cover3.jpg" }
+        { title: "Sample Song 1", artist: "Artist A", src: "songs/song1.mp3", cover: "images/cover1.jpg" },...
 ];
 
 
@@ -74,5 +76,9 @@ Open index.html in your browser 🎶
 <hr>
 
 📸 Screenshots
+
+<img width="1269" height="760" alt="Screenshot 2025-09-16 133349" src="https://github.com/user-attachments/assets/e2e13047-0fd8-4126-a2f1-59894f1f8f78" />
+br
+<img width="1104" height="729" alt="Screenshot 2025-09-16 133414" src="https://github.com/user-attachments/assets/6286d146-d5f4-4ab4-98d6-aac952c156cb" />
 
 
